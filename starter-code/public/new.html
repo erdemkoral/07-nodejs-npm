@@ -48,7 +48,7 @@
     <main class="clearfix">
       <section id="write" class="tab-content">
         <h1>New Article</h1>
-        <form action="#" id="new-form">
+        <form method="POST" action="/new" id="new-form">
           <label>
             <input type="text" id="article-title" placeholder="Article title" required>
           </label>
@@ -65,6 +65,7 @@
           <label>
             <input type="checkbox" id="article-published"> Published
           </label>
+          <input type="submit" value="Submit New Article">
         </form>
       </section>
       <section id="articles" class="tab-content">
